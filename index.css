@@ -1,0 +1,13 @@
+:root {
+    box-sizing: border-box;
+    background: blueviolet;
+    --main-color: grey;
+}
+
+h1 {
+    color:cyan;
+}
+
+h4 {
+    background-color: darkolivegreen;
+}
