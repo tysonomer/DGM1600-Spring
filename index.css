@@ -1,13 +1,34 @@
-:root {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
     box-sizing: border-box;
-    background: blueviolet;
-    --main-color: grey;
+
 }
 
-h1 {
-    color:cyan;
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
-h4 {
-    background-color: darkolivegreen;
+#navbar {
+    display: flex;
+    justify-content: flex-end;
 }
+
+.navlist {
+    display: flex;
+    list-style-type: none;
+}
+
+#welcome-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: cyan;
+    color: #fff;
+}
+
