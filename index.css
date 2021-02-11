@@ -32,3 +32,13 @@ body {
     color: #fff;
 }
 
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+figure{
+    margin: 1rem;
+    
+}
