@@ -55,7 +55,7 @@ body {
     list-style-type: none;
 }
 
-navlist a {
+.navlist a {
     display: block;
     font-size: 1.5em;
     padding: 1em;
@@ -63,7 +63,7 @@ navlist a {
     transition: transform 0.3s ease-out;
 }
 
-navlist a:hover {
+.navlist a:hover {
     transform: translate(-6px);
     background-color: var(--blue2);
 }
